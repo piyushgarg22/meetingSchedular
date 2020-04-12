@@ -1,0 +1,55 @@
+@keyframes aniVertical {
+    0% {
+        opacity: 0;
+   }
+    50% {
+        opacity: 1;
+   }
+    100% {
+        opacity: 0;
+   }
+}
+.loading-item {
+    animation: aniVertical 3s ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.loading-item:nth-child(2) {
+    animation-delay: 0.5s;
+}
+.loading-item:nth-child(3) {
+    animation-delay: 1s;
+}
+
+
+.custom-list{
+    display: flex;
+    margin: 5px 0;
+    border: 1px solid lightgrey !important;
+    border-radius: .25rem;
+}
+
+.custom-list:hover{
+background-color:#007bff ;color:#fff;cursor: pointer;}
+
+
+.customInput{
+    padding: 10px;
+    min-width: 350px;
+    margin: 10px 0;
+    border: 1px solid lightgrey;
+    border-radius: .25rem;
+}
+
+.customTextarea{
+    padding: 10px;
+    min-width: 100%;
+    margin: 10px 0;
+    border: 1px solid lightgrey;
+    border-radius: .25rem;
+}
+
+.members{
+    margin: 0 5px;
+}
